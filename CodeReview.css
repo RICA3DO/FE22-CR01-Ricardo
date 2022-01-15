@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 .header {
     background-color: black;
@@ -16,49 +18,51 @@ body {
 }
 .login {
     margin-left: 400px;
+    text-decoration: none;
+    color: white;
 }
 .signup {
     margin-left: 100px;
+    text-decoration: none;
+    color: white;
 
 }
 .header button {
     border-color: black;
-    background-color: red;
+    background-color: #8C181B;
     color: white;
     border-radius: 10px;
     width: 100px;
     height: 50px;
     font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
+    
     /*to make both buttons red backround color*/
 }
 .body {
-    height: 900px;
-    padding-top: -100px;
+    height: 700px;
+    padding-top: -200px;
 
 }
 .text {
     color:white;
-    top: 500px;
+    top: 450px;
     position: absolute;
     margin-left: 500px;
-    margin-top: 290px;
+    margin-top: 90px;
     font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .legs {
     background-color: #1A1818 ;
-    height: 600px;
+    height: 700px;
     margin-top: -60px;
 }
 .legs h1 {
     color: white;
-    width: 200px;
+    width: 650px;
     margin-left: 1000px;
     font-size: 90px;
     text-align: center;
     text-shadow: 8px 4px 4px grey;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .legs button {
     width: 170px;
@@ -78,8 +82,23 @@ body {
     padding-bottom: 20px;
     font-weight: bolder;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
+    height: 320px;
+    width: 150px;
+}
+.button {
+    position: absolute;
+    top: 270px;
+    padding: 1px;
+}
+.button a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+
+}
+.front ul {
+    list-style-type: none;
 }
 .front h3 {
     font-size: 30px;
@@ -97,8 +116,23 @@ body {
     padding-bottom: 20px;
     font-weight: bolder;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
+    height: 320px;
+    width: 150px;
+}
+.button2 {
+    position: absolute;
+    top: 270px;
+    padding: 1px;
+}
+.button2 a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+
+}
+.back ul {
+    list-style-type: none;
 }
 .back h3 {
     font-size: 30px;
@@ -115,8 +149,23 @@ body {
     padding-bottom: 40px;
     font-weight: bolder;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
+    height: 300px;
+    width: 150px;
+}
+.button3 {
+    position: absolute;
+    top: 270px;
+    padding: 1px;
+}
+.button3 a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+
+}
+.projects ul {
+    list-style-type: none;
 }
 .projects h3 {
     font-size: 30px;
@@ -126,15 +175,22 @@ body {
     color: white;
     margin-bottom: -20px;
 }
+.foot nav {
+    justify-content: center;
+    text-align: center;
+}
 .foot img {
-    margin-left: 1100px;
+    margin-left: 1150px;
     margin-top: 10px;
 }
 .foot p {
     margin-left: 1100px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 #end {
     margin-left: 1150px;
     font-style: italic;
+}
+.foot nav a {
+    color: white;
+    text-decoration: none;
 }
