@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+}
+.header {
+    background-color: black;
+    margin-bottom: 0px;
+    
+}
+.header img {
+    margin-left: 30px;
+}
+.header input {
+    margin-left: 500px;
+    width: 1000px;
+    height: 30px;
+}
+.login {
+    margin-left: 400px;
+}
+.signup {
+    margin-left: 100px;
+
+}
+.header button {
+    border-color: black;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    width: 70px;
+    height: 40px;
+    /*to make both buttons red backround color*/
+}
+.body {
+    height: 900px;
+    padding-top: -100px;
+
+}
+.text {
+    color:white;
+    top: 500px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 310px;
+}
+.legs {
+    background-color: #1A1818 ;
+    height: 600px;
+    margin-top: -60px;
+}
+.legs h1 {
+    color: white;
+    width: 200px;
+    margin-left: 1000px;
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 5px 3px 3px white;
+}
+.legs button {
+    width: 170px;
+    height: 40px;
+    border-color: grey;
+    font-size: 20px;
+}
+.front {
+    background-color: #235A8D; /*copy paste in every div */
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-top: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.front h3 {
+    font-size: 30px;
+
+}
+.back {
+    background-color: #235A8D; /*copy paste in every div */
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 1000px;
+    margin-top: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.back h3 {
+    font-size: 30px;
+}
+.projects {
+    background-color: #235A8D; /*copy paste in every div */
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 1700px;
+    margin-top: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.projects h3 {
+    font-size: 30px;
+}
+.foot {
+    background-color: #000000;
+    color: white;
+    margin-bottom: -20px;
+}
+.foot img {
+    margin-left: 1100px;
+    margin-top: 10px;
+}
+.foot p {
+    margin-left: 1100px;
+}
+#end {
+    margin-left: 1150px;
+}
