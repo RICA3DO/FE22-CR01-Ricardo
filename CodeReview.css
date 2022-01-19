@@ -5,27 +5,23 @@ body {
 }
 .header {
     background-color: black;
-    margin-bottom: 0px;
     
 }
 .header img {
-    margin-left: 40px;
-    margin-top: 30px;
+    float: left;
 }
 .header input {
-    margin-left: 500px;
-    width: 1000px;
-    height: 30px;
+    margin-left: 35em;
+    width: 80em;
+    height: 3em;
 }
 .login {
-    margin-left: 400px;
-    text-decoration: none;
     color: white;
+    margin-left: 5rem;
 }
 .signup {
-    margin-left: 100px;
-    text-decoration: none;
     color: white;
+    margin-left: 4rem;
 
 }
 .header button {
@@ -33,37 +29,34 @@ body {
     background-color: #8C181B;
     color: white;
     border-radius: 10px;
-    width: 100px;
-    height: 50px;
+    border: 3rem;
+    width: 5rem;
+    height: 3rem;
     font-size: larger;
     
     /*to make both buttons red backround color*/
 }
-.body {
-    height: 700px;
-    padding-top: -200px;
-
+.FSWD {
+    height: 45rem;
 }
 .text {
     color:white;
-    top: 450px;
-    position: absolute;
-    margin-left: 500px;
-    margin-top: 90px;
+    float: top;
+    margin-left: 30em;
+    margin-top: -13em;
     font-size: larger;
 }
 .legs {
     background-color: #1A1818 ;
-    height: 600px;
+    height: 38rem;
     margin-top: -60px;
 }
 .legs h1 {
     color: white;
-    margin-left: 200px;
     font-size: 90px;
     text-align: center;
     text-shadow: 8px 4px 4px grey;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 .legs button {
     width: 170px;
@@ -74,22 +67,19 @@ body {
 .front {
     background-color: #235A8D; /*copy paste in every div */
     color: white;
-    position: absolute;
     border-radius: 10px;
-    margin-left: 300px;
-    margin-top: auto;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 20px;
+    border: 0;
     font-weight: bolder;
     font-size: 20px;
     line-height: 30px;
     height: 320px;
-    width: 150px;
-}
+    width: 29%;
+    float: left;
+    margin-left: 3em;
+    margin-top: 1em;
+    text-align: center;
+    }
 .button {
-    position: absolute;
-    top: 270px;
     padding: 1px;
 }
 .button a {
@@ -108,22 +98,20 @@ body {
 .back {
     background-color: #235A8D; /*copy paste in every div */
     color: white;
-    position: absolute;
     border-radius: 10px;
-    margin-left: 1000px;
-    margin-top: auto;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 20px;
+    border: 0;
     font-weight: bolder;
     font-size: 20px;
     line-height: 30px;
     height: 320px;
-    width: 150px;
-}
+    width: 29%;
+    margin-left: 5em;
+    margin-top: 1em;
+    float: left;
+    text-align: center;
+    }
 .button2 {
-    position: absolute;
-    top: 270px;
+    margin-top: 1.5em;
     padding: 1px;
 }
 .button2 a {
@@ -141,22 +129,20 @@ body {
 .projects {
     background-color: #235A8D; /*copy paste in every div */
     color: white;
-    position: absolute;
     border-radius: 10px;
-    margin-left: 1700px;
-    margin-top: auto;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 40px;
+    border: 0;
     font-weight: bolder;
     font-size: 20px;
     line-height: 30px;
-    height: 300px;
-    width: 150px;
-}
+    height: 320px;
+    width: 29%;
+    float: right;
+    margin-right: 3em;
+    margin-top: 1em;
+    text-align: center;
+    }
 .button3 {
-    position: absolute;
-    top: 270px;
+    margin-top: 3em;
     padding: 1px;
 }
 .button3 a {
@@ -181,14 +167,14 @@ body {
     text-align: center;
 }
 .foot img {
-    margin-left: 1150px;
+    margin-left: 73rem;
     margin-top: 10px;
 }
 .foot p {
-    margin-left: 1100px;
+    margin-left: 70rem;
 }
 #end {
-    margin-left: 1150px;
+    margin-left: 74rem;
     font-style: italic;
 }
 .foot nav a {
